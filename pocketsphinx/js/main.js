@@ -196,9 +196,9 @@ window.onload = function () {
 
 // This is the list of words that need to be added to the recognizer
 // This follows the CMU dictionary format
-var wordList = [["MILLION", "M IH L Y AH N"], ["TWO", "T UW"], ["THREE", "TH R IY"], ["FOUR", "F AO R"], ["FIVE", "F AY V"], ["SIX", "S IH K S"], ["SEVEN", "S EH V AH N"], ["EIGHT", "EY T"], ["NINE", "N AY N"], ["ZERO", "Z IH R OW"], ["NEW-YORK", "N UW Y AO R K"], ["NEW-YORK-CITY", "N UW Y AO R K S IH T IY"], ["PARIS", "P AE R IH S"], ["PARIS(2)", "P EH R IH S"], ["SHANGHAI", "SH AE NG HH AY"], ["SAN-FRANCISCO", "S AE N F R AE N S IH S K OW"], ["LONDON", "L AH N D AH N"], ["BERLIN", "B ER L IH N"]];
+var wordList = [["MILLION", "M IH L Y AH N"], ["THOUSAND", "TH AW Z AH N D"], ["ONE-HUNDRED", "W AH N HH AH N D R AH D"], ["TEN", "T EH N"], ["FIFTY", "F IH F T IY"], ["BILLION", "B IH L Y AH N"],  ["ZERO", "Z IH R OW"]];
 // This grammar recognizes digits
-var grammars = [{g: {numStates: 1, start: 0, end: 0, transitions: [{from: 0, to: 0, word: "MILLION"}, {from: 0, to: 0, word: "TWO"}, {from: 0, to: 0, word: "THREE"}, {from: 0, to: 0, word: "FOUR"}, {from: 0, to: 0, word: "FIVE"}, {from: 0, to: 0, word: "SIX"}, {from: 0, to: 0, word: "SEVEN"}, {from: 0, to: 0, word: "EIGHT"}, {from: 0, to: 0, word: "NINE"}, {from: 0, to: 0, word: "ZERO"}]}}];
+var grammars = [{g: {numStates: 1, start: 0, end: 0, transitions: [{from: 0, to: 0, word: "MILLION"}, {from: 0, to: 0, word: "THOUSAND"}, {from: 0, to: 0, word: "ONE-HUNDRED"}, {from: 0, to: 0, word: "TEN"}, {from: 0, to: 0, word: "FIFTY"}, {from: 0, to: 0, word: "BILLION"}, {from: 0, to: 0, word: "ZERO"}]}}];
 // This grammar recognizes a few cities names
 //var grammarCities = {numStates: 1, start: 0, end: 0, transitions: [{from: 0, to: 0, word: "NEW-YORK"}, {from: 0, to: 0, word: "NEW-YORK-CITY"}, {from: 0, to: 0, word: "PARIS"}, {from: 0, to: 0, word: "SHANGHAI"}, {from: 0, to: 0, word: "SAN-FRANCISCO"}, {from: 0, to: 0, word: "LONDON"}, {from: 0, to: 0, word: "BERLIN"}]};
 //var grammars = [{title: "Digits", g: grammarDigits}, {title: "Cities", g: grammarCities}];
