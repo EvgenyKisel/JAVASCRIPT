@@ -194,6 +194,7 @@ window.onload = function () {
     stopBtn.onclick = stopRecording;
 };
 
+
 // This is the list of words that need to be added to the recognizer
 // This follows the CMU dictionary format
 var wordList = [["MILLION", "M IH L Y AH N"], ["THOUSAND", "TH AW Z AH N D"], ["ONE-HUNDRED", "W AH N HH AH N D R AH D"], ["TEN", "T EH N"], ["FIFTY", "F IH F T IY"], ["BILLION", "B IH L Y AH N"],  ["ZERO", "Z IH R OW"]];
