@@ -5,9 +5,6 @@ if (typeof Module === 'undefined') Module = eval('(function() { try { return Mod
  *
  * We can not interact with emscripten using unicide strings
  * so we need to manually encode and decode them.
- * Thanks to:
- * https://gist.github.com/chrisveness/bcb00eb717e6382c5608
- *
  */
 
 function Utf8Encode(strUni) {

@@ -185,7 +185,6 @@ window.onload = function () {
     });
     else updateStatus("No web audio support in this browser");
 
-    // Wiring JavaScript to the UI
     var startBtn = document.getElementById('startBtn');
     var stopBtn = document.getElementById('stopBtn');
     startBtn.disabled = true;
